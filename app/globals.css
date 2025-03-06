@@ -14,7 +14,7 @@ body {
 
 @layer base {
   :root {
-    --background: linear-gradient(135deg, hsl(30, 50%, 95%), hsl(10, 40%, 90%)); /* Warm, soft gradient */
+    --background: linear-gradient(135deg, hsl(30, 50%, 95%), hsl(10, 40%, 90%)) !important; /* Warm, soft gradient */
     --foreground: 0 0% 10%; /* Slightly softened black for readability */
     --card: 0 0% 98%; /* Light card background */
     --card-foreground: 0 0% 10%; /* Slightly softened black for card text */
@@ -42,7 +42,7 @@ body {
   }
 
   .dark {
-    --background: linear-gradient(135deg, hsl(30, 20%, 15%), hsl(10, 20%, 10%)); /* Deep, warm gradient */
+    --background: linear-gradient(135deg, hsl(30, 20%, 15%), hsl(10, 20%, 10%)) !important; /* Deep, warm gradient */
     --foreground: 0 0% 90%; /* Soft white for text */
     --card: 0 0% 10%; /* Dark card background */
     --card-foreground: 0 0% 90%; /* Soft white for card text */
