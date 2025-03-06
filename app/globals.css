@@ -10,35 +10,7 @@
 
 @layer base {
   :root {
-    --background: linear-gradient(135deg, #4a2a2a, #6b3a3a) !important;
-    --foreground: 0 0% 10%; /* Slightly softened black for readability */
-    --card: 0 0% 98%; /* Light card background */
-    --card-foreground: 0 0% 10%; /* Slightly softened black for card text */
-    --popover: 0 0% 98%; /* Light popover background */
-    --popover-foreground: 0 0% 10%; /* Slightly softened black for popover text */
-    --primary: 25 70% 50%; /* Warm orange for primary elements */
-    --primary-foreground: 0 0% 98%; /* White text for primary elements */
-    --secondary: 40 50% 85%; /* Soft beige for secondary elements */
-    --secondary-foreground: 0 0% 10%; /* Slightly softened black for secondary text */
-    --muted: 30 30% 90%; /* Very soft muted background */
-    --muted-foreground: 0 0% 40%; /* Grayish text for muted elements */
-    --accent: 15 60% 70%; /* Warm peach for accents */
-    --accent-foreground: 0 0% 10%; /* Slightly softened black for accent text */
-    --destructive: 0 70% 50%; /* Red for destructive actions */
-    --destructive-foreground: 0 0% 98%; /* White text for destructive actions */
-    --border: 30 20% 80%; /* Soft beige border */
-    --input: 30 20% 90%; /* Light beige input background */
-    --ring: 25 70% 50%; /* Warm orange focus ring */
-    --chart-1: 25 70% 50%; /* Warm orange for chart 1 */
-    --chart-2: 40 50% 60%; /* Warm yellow for chart 2 */
-    --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
-    --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
-    --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
-    --radius: 0.5rem; /* Rounded corners */
-  }
-
-  .dark {
-    --background: linear-gradient(135deg, #2c1a1a, #4a2a2a) !important;
+    --background: linear-gradient(135deg, #2c1a1a, #4a2a2a) !important; /* Deep, warm gradient */
     --foreground: 0 0% 90%; /* Soft white for text */
     --card: 0 0% 10%; /* Dark card background */
     --card-foreground: 0 0% 90%; /* Soft white for card text */
@@ -62,8 +34,36 @@
     --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
     --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
     --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
+    --radius: 0.5rem; /* Rounded corners */
   }
-  
+
+  .dark {
+    --background: linear-gradient(135deg, #1a0f0f, #2c1a1a) !important; /* Even darker gradient */
+    --foreground: 0 0% 90%; /* Soft white for text */
+    --card: 0 0% 5%; /* Very dark card background */
+    --card-foreground: 0 0% 90%; /* Soft white for card text */
+    --popover: 0 0% 5%; /* Very dark popover background */
+    --popover-foreground: 0 0% 90%; /* Soft white for popover text */
+    --primary: 25 70% 50%; /* Warm orange for primary elements */
+    --primary-foreground: 0 0% 10%; /* Dark text for primary elements */
+    --secondary: 40 10% 15%; /* Very deep beige for secondary elements */
+    --secondary-foreground: 0 0% 90%; /* Soft white for secondary text */
+    --muted: 30 5% 20%; /* Very dark muted background */
+    --muted-foreground: 0 0% 70%; /* Grayish text for muted elements */
+    --accent: 15 50% 50%; /* Warm peach for accents */
+    --accent-foreground: 0 0% 90%; /* Soft white for accent text */
+    --destructive: 0 70% 50%; /* Red for destructive actions */
+    --destructive-foreground: 0 0% 90%; /* Soft white for destructive actions */
+    --border: 30 5% 25%; /* Very deep beige border */
+    --input: 30 5% 20%; /* Very dark beige input background */
+    --ring: 25 70% 50%; /* Warm orange focus ring */
+    --chart-1: 25 70% 50%; /* Warm orange for chart 1 */
+    --chart-2: 40 50% 60%; /* Warm yellow for chart 2 */
+    --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
+    --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
+    --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
+  }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--background);
