@@ -1,11 +1,11 @@
 import { AI_NAME, OWNER_NAME } from "@/configuration/identity";
 
-export const CHAT_HEADER: string = `JARVIS`;
-export const MESSAGE_PLACEHOLDER: string = `Awaiting your command, sir...`;
-export const FOOTER_MESSAGE: string = `Powered by Stark-level engineering (or close enough).`;
-export const CLEAR_BUTTON_TEXT: string = `Purge Memory`;
-export const PAGE_TITLE: string = `JARVIS Interface`;
-export const PAGE_DESCRIPTION: string = `Chat with ${AI_NAME}, ${OWNER_NAME}'s hyper-intelligent AI assistant.`;
+export const CHAT_HEADER: string = `DormiBot`;
+export const MESSAGE_PLACEHOLDER: string = `I’m here to listen. What’s on your mind?`;
+export const FOOTER_MESSAGE: string = `Guided by wisdom and empathy, always here for you.`;
+export const CLEAR_BUTTON_TEXT: string = `Release Burdens`;
+export const PAGE_TITLE: string = `DormiBot Companion`;
+export const PAGE_DESCRIPTION: string = `Chat with ${AI_NAME} for all of your RA questions.`;
 
-export const EMPTY_CITATION_MESSAGE: string = "Source: Trust me, I’m an AI.";
+export const EMPTY_CITATION_MESSAGE: string = "Source: The collective knowledge of countless conversations and a dash of compassion.";
 
