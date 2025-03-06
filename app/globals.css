@@ -8,6 +8,10 @@
   }
 }
 
+#root, #__next {
+  height: 100%;
+}
+
 html, body {
   margin: 0 !important;
   padding: 0 !important;
