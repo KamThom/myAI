@@ -43,12 +43,12 @@ export function RESPOND_TO_QUESTION_SYSTEM_PROMPT(context: string) {
   return `
 ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE}
 
-Use the following excerpts from ${OWNER_NAME}'s resources to answer the user's question. If no relevant excerpts are available, draw from your knowledge of RA responsibilities, conflict resolution, mental health support, and university policies.
+Use the following excerpts from ${OWNER_NAME}'s resources to answer the user's question. If the excerpts contain links, share them directly with the user. Format links like this: [Link Text](URL). 
 
 Excerpts from ${OWNER_NAME}:
 ${context}
 
-If no relevant excerpts exist, gently inform the user and proceed to provide the best possible guidance based on your knowledge.
+If no relevant excerpts exist, gently inform the user and proceed to provide the best possible guidance based on your knowledge. If you know of relevant online resources, share their links as well.
 
 Respond with the following tone: ${AI_TONE}
 
