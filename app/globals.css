@@ -8,10 +8,6 @@
   }
 }
 
-#root, #__next {
-  height: 100%;
-}
-
 html, body {
   margin: 0 !important;
   padding: 0 !important;
@@ -31,68 +27,68 @@ body {
 }
 
 a {
-  color: #1d4ed8; /* Blue color for links */
+  color: #ff784f;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #2563eb; /* Brighter blue on hover */
+  color: #ff9770;
 }
 
 @layer base {
   :root {
-    --background: linear-gradient(135deg, #2c1a1a, #4a2a2a) !important; /* Deep, warm gradient */
-    --foreground: 0 0% 90%; 
-    --card: 0 0% 10%; /* Dark card background */
-    --card-foreground: 0 0% 90%; /* Soft white for card text */
-    --popover: 0 0% 10%; /* Dark popover background */
-    --popover-foreground: 0 0% 90%; /* Soft white for popover text */
-    --primary: 25 70% 50%; /* Warm orange for primary elements */
-    --primary-foreground: 0 0% 10%; /* Dark text for primary elements */
-    --secondary: 40 20% 20%; /* Deep beige for secondary elements */
-    --secondary-foreground: 0 0% 90%; /* Soft white for secondary text */
-    --muted: 30 10% 25%; /* Dark muted background */
-    --muted-foreground: 0 0% 70%; /* Grayish text for muted elements */
-    --accent: 15 50% 50%; /* Warm peach for accents */
-    --accent-foreground: 0 0% 90%; /* Soft white for accent text */
-    --destructive: 0 70% 50%; /* Red for destructive actions */
-    --destructive-foreground: 0 0% 90%; /* Soft white for destructive actions */
-    --border: 30 10% 30%; /* Deep beige border */
-    --input: 30 10% 25%; /* Dark beige input background */
-    --ring: 25 70% 50%; /* Warm orange focus ring */
-    --chart-1: 25 70% 50%; /* Warm orange for chart 1 */
-    --chart-2: 40 50% 60%; /* Warm yellow for chart 2 */
-    --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
-    --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
-    --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
-    --radius: 0.5rem; /* Rounded corners */
+    --background: linear-gradient(135deg, #3b1f1f, #5c2e2e);
+    --foreground: #f5e1da;
+    --card: #2a1b1b;
+    --card-foreground: #f5e1da;
+    --popover: #2a1b1b;
+    --popover-foreground: #f5e1da;
+    --primary: #ff784f;
+    --primary-foreground: #2a1b1b;
+    --secondary: #704f4f;
+    --secondary-foreground: #f5e1da;
+    --muted: #4d3333;
+    --muted-foreground: #bfa5a5;
+    --accent: #ff9770;
+    --accent-foreground: #2a1b1b;
+    --destructive: #ff4f4f;
+    --destructive-foreground: #f5e1da;
+    --border: #5c3a3a;
+    --input: #4d3333;
+    --ring: #ff784f;
+    --chart-1: #ff784f;
+    --chart-2: #ff9770;
+    --chart-3: #ffa585;
+    --chart-4: #ffc2a1;
+    --chart-5: #ffdfc1;
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: linear-gradient(135deg, #1a0f0f, #2c1a1a) !important; 
-    --foreground: 0 0% 90%; /* Soft white for text */
-    --card: 0 0% 5%; /* Very dark card background */
-    --card-foreground: 0 0% 90%; /* Soft white for card text */
-    --popover: 0 0% 5%; /* Very dark popover background */
-    --popover-foreground: 0 0% 90%; /* Soft white for popover text */
-    --primary: 25 70% 50%; /* Warm orange for primary elements */
-    --primary-foreground: 0 0% 10%; /* Dark text for primary elements */
-    --secondary: 40 10% 15%; /* Very deep beige for secondary elements */
-    --secondary-foreground: 0 0% 90%; /* Soft white for secondary text */
-    --muted: 30 5% 20%; /* Very dark muted background */
-    --muted-foreground: 0 0% 70%; /* Grayish text for muted elements */
-    --accent: 15 50% 50%; /* Warm peach for accents */
-    --accent-foreground: 0 0% 90%; /* Soft white for accent text */
-    --destructive: 0 70% 50%; /* Red for destructive actions */
-    --destructive-foreground: 0 0% 90%; /* Soft white for destructive actions */
-    --border: 30 5% 25%; /* Very deep beige border */
-    --input: 30 5% 20%; /* Very dark beige input background */
-    --ring: 25 70% 50%; /* Warm orange focus ring */
-    --chart-1: 25 70% 50%; /* Warm orange for chart 1 */
-    --chart-2: 40 50% 60%; /* Warm yellow for chart 2 */
-    --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
-    --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
-    --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
+    --background: linear-gradient(135deg, #2a1515, #3b1f1f);
+    --foreground: #f5e1da;
+    --card: #1b0f0f;
+    --card-foreground: #f5e1da;
+    --popover: #1b0f0f;
+    --popover-foreground: #f5e1da;
+    --primary: #ff784f;
+    --primary-foreground: #1b0f0f;
+    --secondary: #5c3a3a;
+    --secondary-foreground: #f5e1da;
+    --muted: #3b1f1f;
+    --muted-foreground: #bfa5a5;
+    --accent: #ff9770;
+    --accent-foreground: #1b0f0f;
+    --destructive: #ff4f4f;
+    --destructive-foreground: #f5e1da;
+    --border: #4d3333;
+    --input: #3b1f1f;
+    --ring: #ff784f;
+    --chart-1: #ff784f;
+    --chart-2: #ff9770;
+    --chart-3: #ffa585;
+    --chart-4: #ffc2a1;
+    --chart-5: #ffdfc1;
   }
 }
 
