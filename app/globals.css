@@ -8,6 +8,24 @@
   }
 }
 
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100% !important; 
+  width: 100% !important;
+  overflow-x: hidden; 
+}
+
+html {
+  background: var(--background); 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+
 @layer base {
   :root {
     --background: linear-gradient(135deg, #2c1a1a, #4a2a2a) !important; /* Deep, warm gradient */
@@ -62,24 +80,6 @@
     --chart-3: 15 60% 70%; /* Warm peach for chart 3 */
     --chart-4: 10 50% 75%; /* Soft coral for chart 4 */
     --chart-5: 30 40% 80%; /* Soft beige for chart 5 */
-  }
-
-  html, body {
-    margin: 0 ;
-    padding: 0 !important;
-    min-height: 100% !important; /* Ensure the body covers the full viewport height */
-    width: 100% !important; /* Ensure the body covers the full viewport width */
-    overflow-x: hidden; /* Prevent horizontal scroll */
-  }
-
-  html {
-    background: var(--background); /* Apply the gradient to the entire page */
-  }
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--background);
-    color: var(--foreground);
   }
 }
 
