@@ -65,10 +65,10 @@
   }
 
   html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh; /* Ensure the body covers the full viewport height */
-    width: 100%; /* Ensure the body covers the full viewport width */
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100% !important; /* Ensure the body covers the full viewport height */
+    width: 100% !important; /* Ensure the body covers the full viewport width */
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
 
